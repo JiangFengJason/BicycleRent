@@ -1,0 +1,37 @@
+body
+{
+	margin: 0px;
+}
+p
+{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.BackGround
+{
+	margin: 0px;
+	padding: 0px;
+	position:relative;
+}
+.WeiChat
+{
+	position:absolute;
+	top: 50px;
+	left: 50px;
+}
+.WeiBo
+{
+	position: absolute;
+	top: 470px;
+	left: 50px;
+}
+#BackGroundPicture
+{
+	width: 100%;
+}
+#WeiChatPicture #WeiBoPicture
+{
+	width: 200px;
+	height: 200px;
+}
