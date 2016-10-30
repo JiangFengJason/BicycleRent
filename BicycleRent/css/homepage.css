@@ -10,7 +10,7 @@ body
 }
 p
 {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	color: white;
 }
@@ -31,18 +31,18 @@ p
 {
 	position: absolute;
 	font-family: STXihei;
-	top: 470px;
+	top: 280px;
 	left: 50px;
 }
 .Poetry
 {
 	position:absolute;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: STKaiti;
 	/*color: #FFE4B5;*/
 	color: white;
 	top: 50px;
-	left: 380px;
+	left: 260px;
 }
 .Sentence
 {
@@ -50,15 +50,15 @@ p
 	font-family:"Times New Roman";
 	font-size: 30px;
 	color:white;
-	top:700px;
-	left:450px;
+	top:500px;
+	left:280px;
 }
 #BackGroundPicture
 {
 	width: 100%;
 }
-#WeiChatPicture #WeiBoPicture
+#WeiChatPicture,#WeiBoPicture
 {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 }

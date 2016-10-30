@@ -1,0 +1,58 @@
+body
+{
+	margin: 0;
+	padding:0;
+}
+#list
+{
+	position: absolute;
+	height:400px;
+	width:11000px;
+}
+#Content
+{
+	overflow: hidden;
+	height:400px;
+	width:100%;
+	position: relative;
+}
+.image img
+{
+	z-index:1;
+	float:right;
+	width:500px;
+	height:400px;
+}
+#Buttons
+{
+	left:167px;
+	bottom: 20px;
+	position:absolute;
+	z-index: 2;
+}
+.title
+{
+	position:absolute;
+	clear:both;
+	margin-top: 30px;
+	margin-left: 20px;
+	width:400px;
+	font-size: 30px;
+}
+.image
+{
+	float:left;
+	z-index:1;
+	position:relative;
+	height:400px;
+	width:1000px;
+}
+.subtitle
+{
+	left: 50px;
+	top: 200px;
+	position:absolute;
+	padding:10px;
+	font-size: 20px;
+	background-color: white;
+}
