@@ -27,13 +27,13 @@ window.onload=function()
 			{
 				animated=false;
 				list.style.left=newleft+'px';
-				if(newleft>-853)
+				if(newleft>0)
 				{
-					list.style.left=-7853+'px';
+					list.style.left=-9562+'px';
 				}
-				if(newleft<-8853)
+				if(newleft<-10928)
 				{
-					list.style.left=-1853+'px';
+					list.style.left=-1366+'px';
 				}
 			}
 		}
@@ -52,14 +52,14 @@ window.onload=function()
 	{
 		if(animated==false)
 		{
-			animate(-1000);
+			animate(-1366);
 		}
 	}
 	left.onclick=function()
 	{
 		if(animated==false)
 		{
-			animate(1000);
+			animate(1366);
 		}
 	}
 }

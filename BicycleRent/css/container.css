@@ -2,17 +2,18 @@ body
 {
 	margin: 0;
 	padding:0;
+	background-color: #7CFC00;
 }
 #list
 {
 	position: absolute;
-	height:400px;
-	width:11000px;
+	height:500px;
+	width:14000px;
 }
 #Content
 {
 	overflow: hidden;
-	height:400px;
+	height:500px;
 	width:100%;
 	position: relative;
 }
@@ -20,8 +21,8 @@ body
 {
 	z-index:1;
 	float:right;
-	width:500px;
-	height:400px;
+	width:1366px;
+	height:500px;
 }
 #Buttons
 {
@@ -44,8 +45,8 @@ body
 	float:left;
 	z-index:1;
 	position:relative;
-	height:400px;
-	width:1000px;
+	height:500px;
+	width:1366px;
 }
 .subtitle
 {
