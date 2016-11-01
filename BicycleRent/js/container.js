@@ -29,11 +29,11 @@ window.onload=function()
 				list.style.left=newleft+'px';
 				if(newleft>0)
 				{
-					list.style.left=-9562+'px';
+					list.style.left=-7000+'px';
 				}
-				if(newleft<-10928)
+				if(newleft<-8000)
 				{
-					list.style.left=-1366+'px';
+					list.style.left=-1000+'px';
 				}
 			}
 		}
@@ -41,25 +41,25 @@ window.onload=function()
 	}
 	play.onclick=function()
 	{
-		timer=setInterval("right.onclick()",4000);
+		timer=setInterval("right.onclick()",6000);
 	}
 	stop.onclick=function()
 	{
 		clearInterval(timer);
 	}
-	timer=setInterval("right.onclick()",4000);
+	timer=setInterval("right.onclick()",6000);
 	right.onclick=function()
 	{
 		if(animated==false)
 		{
-			animate(-1366);
+			animate(-1000);
 		}
 	}
 	left.onclick=function()
 	{
 		if(animated==false)
 		{
-			animate(1366);
+			animate(1000);
 		}
 	}
 }

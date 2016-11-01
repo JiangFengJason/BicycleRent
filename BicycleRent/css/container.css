@@ -1,59 +1,92 @@
+html {
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
 body
 {
-	margin: 0;
+	margin: 0 auto;
 	padding:0;
-	background-color: #7CFC00;
+	width: 1000px;
+	background-color: black;
 }
 #list
 {
 	position: absolute;
-	height:500px;
-	width:14000px;
+	height:330px;
+	width:11000px;
 }
 #Content
 {
+	margin:0 auto;
 	overflow: hidden;
-	height:500px;
-	width:100%;
+	height:330px;
+	width:1000px;
 	position: relative;
 }
 .image img
 {
 	z-index:1;
 	float:right;
-	width:1366px;
-	height:500px;
+	width:1000px;
+	height:330px;
 }
 #Buttons
 {
-	left:167px;
-	bottom: 20px;
-	position:absolute;
-	z-index: 2;
+	float: right;
+}
+#news
+{
+	position: relative;
+	color: white;
+	float: left;
+	top: 35px;
+	width: 400px;
+}
+#benefit
+{
+	color: white;
+	float: right;
+	width: 600px;
+}
+#BenefitAct1
+{
+	width:300px;
+	height: 200px;
+	float:left;
+}
+.titles
+{
+	font-size: 30px;
+	font-family: STKaiti;
 }
 .title
 {
 	position:absolute;
 	clear:both;
-	margin-top: 30px;
-	margin-left: 20px;
+	top: 214px;
 	width:400px;
-	font-size: 30px;
+	font-size: 25px;
+	color: white;
+	background-color: #696969;
+	font-family: STKaiti;
+}
+.subtitle
+{
+	top: 270px;
+	position:absolute;
+	padding:10px;
+	font-size: 18px;
+	background-color: gray;
+	color: white;
+	background:rgba(0,0,0,0.5);
 }
 .image
 {
 	float:left;
 	z-index:1;
 	position:relative;
-	height:500px;
-	width:1366px;
-}
-.subtitle
-{
-	left: 50px;
-	top: 200px;
-	position:absolute;
-	padding:10px;
-	font-size: 20px;
-	background-color: white;
+	height:330px;
+	width:1000px;
 }
