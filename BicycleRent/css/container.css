@@ -1,3 +1,13 @@
+@font-face
+{
+	font-family: STXINGKA;
+	src:url('../font/STXINGKA.TTF');
+}
+@font-face
+{
+	font-family: STXINWEI;
+	src:url('../font/STXINWEI.TTF');
+}
 html {
     font-family: sans-serif; 
     line-height: 1.15; 
@@ -49,10 +59,10 @@ body
 	display: block;
 	text-decoration:none;
 	color: white;
-	font-size: 17px;
-	font-family: sans-serif; 
+	font-size: 18px;
+	font-family: STXINWEI; 
     line-height: 1.15;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 #benefit
 {
@@ -67,6 +77,7 @@ body
 	float:left;
 	text-align: center;
 	font-size: 20px;
+	font-family: STXINGKA;
 }
 .titles
 {
