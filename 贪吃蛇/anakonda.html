@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="anakonda.css">
+	<meta charset="UTF-8">
+	<title>贪吃蛇</title>
+</head>
+<body>
+	<audio id="turn" src="turn.wav" controls="controls" 
+	loop="false" hidden="true">
+	</audio>
+	<audio id="eat" src="eat.wav" controls="controls" 
+	loop="false" hidden="true">
+	</audio>
+	<audio id="death" src="death.wav" controls="controls"
+	loop="false" hidden="true">
+	</audio>
+	<center>
+		<div id="score">当前回合：0 当前得分：0</div>
+		<canvas id="canvas" width="1000" height="600"></canvas>
+		<div id="control">
+		玩家1：游戏控制：W=上；A=左；S=下；D=右<br/>
+		玩家2：游戏控制：I=上；J=左；K=下；L=右
+		</div>
+	</center>
+	<script src="anakonda.js"></script>
+</body>
+</html>

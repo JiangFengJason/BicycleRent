@@ -1,0 +1,10 @@
+body
+{
+	background-color: black;
+}
+#score,#control
+{
+	font-weight: bold;
+	font-size:20px;
+	color: white;
+}
