@@ -64,6 +64,10 @@ body
     line-height: 1.15;
     padding-top: 4px;
 }
+.s:hover
+{
+	background-color: gray;
+}
 #benefit
 {
 	color: white;
