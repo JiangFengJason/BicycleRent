@@ -1,11 +1,7 @@
 window.onload=function()
 {
-	var list=document.getElementById('list');
-	
-
-	list.onclick=function()
+	function Show()
 	{
-		
+		window.location="D:/HTML/BicycleRent/pages/user/Detail.html";
 	}
-	
 }
