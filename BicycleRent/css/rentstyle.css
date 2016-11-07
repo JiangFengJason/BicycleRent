@@ -1,3 +1,13 @@
+@font-face
+{
+	font-family: STXINWEI;
+	src:url('../font/STXINWEI.TTF');
+}
+@font-face
+{
+	font-family: STXINGKA;
+	src:url('../font/STXINGKA.TTF');
+}
 html {
     font-family: sans-serif; 
     line-height: 1.15; 
@@ -9,7 +19,7 @@ body
 	margin: 0 auto;
 	padding:0;
 	width: 1000px;
-	background-color: black;
+	/*background-color: black;*/
 }
 #menu
 {
@@ -22,7 +32,9 @@ body
 	list-style-type:none;
 	text-align:center;
 	float:left;
-	color:#FFF;
+	font-family: STXINWEI;
+	font-size: 20px;
+	/*color:#FFF;*/
 }
 #menu li img
 {
@@ -45,10 +57,9 @@ body
 	width:300px;
 	margin-left:33px;
 	margin-top: 33px; 
-	color: white;
+	/*color: white;*/
+	font-family: STXINGKA;
+	font-size: 20px;
 	text-align:center;
 	float: left;
-}
-#list a
-{
 }

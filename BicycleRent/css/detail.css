@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
+body
+{
+	margin: 0 auto;
+	padding:0;
+	width: 1000px;
+}
+#return
+{
+	width:100px;
+	border-radius:1em;
+	padding:5px;
+	margin-top:20px;
+	color:white;
+	background-color:#696969;
+}
+#picture
+{
+	float:left;
+	width:500px;
+	margin-top: 40px;
+}
+#

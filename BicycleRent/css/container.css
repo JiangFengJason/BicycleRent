@@ -19,7 +19,7 @@ body
 	margin: 0 auto;
 	padding:0;
 	width: 1000px;
-	background-color: black;
+	/*background-color: black;*/
 }
 #list
 {
@@ -46,19 +46,23 @@ body
 {
 	float: right;
 }
+#Buttons img
+{
+	float: left;
+}
 #news
 {
 	position: relative;
-	color: white;
+	/*color: white;*/
 	float: left;
-	top: 35px;
+	top: 70px;
 	width: 400px;
 }
 .s
 {
 	display: block;
 	text-decoration:none;
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-family: STXINWEI; 
     line-height: 1.15;
@@ -66,13 +70,15 @@ body
 }
 .s:hover
 {
-	background-color: gray;
+	background-color:#DCDCDC;
+
 }
 #benefit
 {
-	color: white;
+	/*color: white;*/
 	float: right;
 	width: 600px;
+	margin-top:38px;
 }
 .BenefitAct
 {
@@ -87,7 +93,7 @@ body
 {
 	font-size: 30px;
 	font-family: STKaiti;
-	color: white;
+	/*color: white;*/
 }
 .title
 {
@@ -122,7 +128,7 @@ body
 {
 	position: absolute;
 	width:1000px;
-	margin-top:300px;
+	margin-top:350px;
 }
 .info
 {
