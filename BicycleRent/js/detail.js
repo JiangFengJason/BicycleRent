@@ -26,7 +26,7 @@ ms_DatePicker: function (options) {
 			var yearSel = $YearSelector.attr("rel");
             for (var i = yearNow; i >= 1900; i--) {
 				var sed = yearSel==i?"selected":"";
-				var yearStr = "<option value=\"" + i + "\" " + sed+">" + i + "</option>";
+				var yearStr = "<option value=\"" + i + "\" " + sed+" style=\"color:Gray;background-color:LightGray\">" + i + "</option>";
                 $YearSelector.append(yearStr);
             }
 
@@ -34,7 +34,7 @@ ms_DatePicker: function (options) {
 			var monthSel = $MonthSelector.attr("rel");
             for (var i = 1; i <= 12; i++) {
 				var sed = monthSel==i?"selected":"";
-                var monthStr = "<option value=\"" + i + "\" "+sed+" style=\"\">" + i + "</option>";
+                var monthStr = "<option value=\"" + i + "\" "+sed+" style=\"color:Gray;background-color:LightGray\">" + i + "</option>";
                 $MonthSelector.append(monthStr);
             }
 
@@ -77,7 +77,7 @@ ms_DatePicker: function (options) {
 					var daySel = $DaySelector.attr("rel");
                     for (var i = 1; i <= dayCount; i++) {
 						var sed = daySel==i?"selected":"";
-						var dayStr = "<option value=\"" + i + "\" "+sed+">" + i + "</option>";
+						var dayStr = "<option value=\"" + i + "\" "+sed+" style=\"color:Gray;background-color:LightGray\">" + i + "</option>";
                         $DaySelector.append(dayStr);
                     }
                 }

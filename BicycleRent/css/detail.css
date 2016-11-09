@@ -46,6 +46,20 @@ body
 {
 	margin-left: 20px;
 }
+#push
+{
+	text-align: center;
+	width:500px;
+}
+#rent
+{
+	width:150px;
+	height:50px;
+	font-size: 20px;
+	border-radius:1em;
+	color:white;
+	background-color:#696969;
+}
 select {
   border: solid 0px #000;
   appearance:none;

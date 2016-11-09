@@ -19,6 +19,15 @@
 		function back(){
 			window.location="Rent.html";
 		}
+		function tip(){
+			var result=confirm("确定要租车吗？");
+			if (result==true){
+				alert("此自行车已成功租借！请于租借日之前归还");
+				window.location="Rent.html";
+			}else{
+				window.location="Rent.html";
+			}
+		}
     </script>
     <title>详细信息</title>
 </head>
@@ -42,7 +51,9 @@
 			</p>
 			<p>费用：(单价)X = 元</p>
 		</div>
+		<div id="push">
+			<input type="button" value="我要租车" id="rent" onclick="tip();" />
+		</div>
 	</div>
-
 </body>
 </html>
