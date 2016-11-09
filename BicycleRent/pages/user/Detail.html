@@ -3,12 +3,24 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="../../css/detail.css" rel="stylesheet" type="text/css" />
-	<title>详细信息</title>
+	<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../../js/detail.js"></script>
+	<script>  
+	$(function () {
+		$.ms_DatePicker({
+	            YearSelector: ".sel_year",
+	            MonthSelector: ".sel_month",
+	            DaySelector: ".sel_day"
+	    });
+		$.ms_DatePicker();
+	}); 
+	</script>
 	<script type="text/javascript">
 		function back(){
 			window.location="Rent.html";
 		}
     </script>
+    <title>详细信息</title>
 </head>
 <body>
 	<div>
@@ -22,7 +34,12 @@
 		<p id="state">状态：</p>
 		<div id="price">
 			<p>开始时间：年月日</p>
-			<p>结束时间：</p>
+			<p>
+				<label>结束日期：</label>  
+				<!-- <select class="sel_year" rel="2016"> </select> --> 2016年 
+				<select class="sel_month" rel="11"> </select> 月 
+				<select class="sel_day" rel="9"> </select> 日
+			</p>
 			<p>费用：(单价)X = 元</p>
 		</div>
 	</div>

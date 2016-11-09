@@ -38,7 +38,7 @@ body
 {
 	float:right;
 	width:500px;
-	margin-top: 40px;
+	margin-top: 13px;
 	font-family: SIMYOU;
 	font-size: 25px;
 }
@@ -46,3 +46,13 @@ body
 {
 	margin-left: 20px;
 }
+select {
+  border: solid 0px #000;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("../images/arrow.png") no-repeat scroll right center transparent;
+  padding-right: 14px;
+  font-size: 15px;
+}
+select::-ms-expand { display: none; }
